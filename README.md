@@ -1,53 +1,26 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Predictive Analytics Project
+ ## Predict the sale price of your house in Ames, Iowa.
+ This tool can determine and forecast the expected sales price for your Ames, Iowa house based on historical information from properties sold in the same area.
 
-## Codeanywhere Template Instructions
+* Live Site == > [Go to application](#-house-price.heroku)
 
-Welcome,
+* Repository ==> [View repository](#heritage-housing-issues)
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions. Click the `Use this template` button above to get started.
+ ![Application Mockup](#)
 
-You can safely delete the Gitpod Template Instructions section of this README.md file,  and modify the remaining paragraphs for your own project. Please do read the Gitpod Template Instructions at least once, though! It contains some important information about Gitpod and the extensions we use. 
+<h2>The CRISP-DM (CRoss Industry Standard Process for Data Mining)</h2>
+In this project, the flow and structure were combined with the CRoss Industry Standard Process for Data Mining known as Crisp-DM.
+CRISP-DM is a process model that serves as the foundation for a data science process. It goes through six phases in order:
 
-## How to use this repo
+* What does the business need in terms of business understanding?
+* Understanding data: What information do we have or need? How clean is it?
+* Data organization - How should the data be set up for modeling?
+* Modeling - Which modeling approaches should we use?
+* Evaluation: Which model best satisfies the business's goals?
+* Deployment - How can stakeholders have access to the results?
+  
+It was first published in 1999 to standardize data mining methods across companies, and it has since become the most often used approach for data mining, analytics, and data science projects.
 
-1. Use this template to create your GitHub project repo
-
-1. Log into <a href="https://app.codeanywhere.com/" target="_blank" rel="noreferrer">CodeAnywhere</a> with your GitHub account.
-
-1. On your Dashboard, click on the New Workspace button
-
-1. Paste in the URL you copied from GitHub earlier
-
-1. Click Create
-
-1. Wait for the workspace to open. This can take a few minutes.
-
-1. Open a new terminal and <code>pip3 install -r requirements.txt</code>
-
-1. In the terminal type <code>pip3 install jupyter</code>
-
-1. In the terminal type <code>jupyter notebook --NotebookApp.token='' --NotebookApp.password=''</code> to start the jupyter server.
-
-1. Open port 8888 preview or browser
-
-1. Open the jupyter_notebooks directory in the jupyter webpage that has opened and click on the notebook you want to open.
-
-1. Click the button Not Trusted and choose Trust.
-
-Note that the kernel says Python 3. It inherits from the workspace so it will be Python-3.8.12 as installed by our template. To confirm this you can use <code>! python --version</code> in a notebook code cell.
-
-
-## Cloud IDE Reminders
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
 
 ## Dataset Content
 * The dataset is sourced from [Kaggle](https://www.kaggle.com/codeinstitute/housing-prices-data). We then created a fictitious user story where predictive analytics can be applied in a real project in the workplace. 
@@ -80,14 +53,10 @@ You can now use the `heroku` CLI program - try running `heroku apps` to confirm 
 |YearRemodAdd|Remodel date (same as construction date if no remodelling or additions)|1950 - 2010|
 |SalePrice|Sale Price|34900 - 755000|
 
-
-
-
-
 ## Business Requirements
-As a good friend, you are requested by your friend, who has received an inheritance from a deceased great-grandfather located in Ames, Iowa, to  help in maximising the sales price for the inherited properties.
 
-Although your friend has an excellent understanding of property prices in her own state and residential area, she fears that basing her estimates for property worth on her current knowledge might lead to inaccurate appraisals. What makes a house desirable and valuable where she comes from might not be the same in Ames, Iowa. She found a public dataset with house prices for Ames, Iowa, and will provide you with that.
+Lydia Doe, who has an inheritance from a deceased great-grandfather who lived in Ames, Iowa, asks for help to assist in raising the selling price for the inherited properties.
+Although Lydia has a thorough understanding of real estate costs in her own state and neighborhood, she is concerned that basing her estimates of a property's worth on this knowledge could result in unreliable appraisals. In Ames, Iowa, a house might not have the same appeal and value as it does where she is from. She found a public dataset with house prices for Ames, Iowa, and will provide that.
 
 * 1 - The client is interested in discovering how the house attributes correlate with the sale price. Therefore, the client expects data visualisations of the correlated variables against the sale price to show that.
 * 2 - The client is interested in predicting the house sale price from her four inherited houses and any other house in Ames, Iowa.
