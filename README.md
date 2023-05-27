@@ -82,13 +82,54 @@ Although Lydia has a thorough understanding of real estate costs in her own stat
 * Regression will be used to estimate the connection between the variables and the target.
 
 ## ML Business Case
-* In the previous bullet, you potentially visualised an ML task to answer a business requirement. You should frame the business case using the method we covered in the course.
 
+#### Predict House Prices in Ames, Iowa
+
+**Regression model**
+
+* We are looking for a machine learning model that can forecast house prices in Ames, Iowa. Lydia may utilize the model to make the best decision with the four residences she inherited. The target variable is numerical and contains the expected house price depending on the features chosen. We take into account a supervised, one-dimensional regression model.
+* Our desired result is to provide Lydia trustworthy information so she may feel confident making wise decisions for her homes and potentially future homes.
+  * The model success metrics are:
+* At least 0.7 for R2 score, on train and test set.
+* The ML model is considered a failure if the model is wrong by more than 30% after 12 months, the prediction need to be consistent over a long period of time.
+* The output is defined as a numerical value for price in dollars. The prediction is made on the fly (not in batches).
 
 ## Dashboard Design
-* List all dashboard pages and their content, either blocks of information or widgets, like buttons, checkboxes, images, or any other items that your dashboard library supports.
-* Eventually, during the project development, you may revisit your dashboard plan to update a given feature (for example, at the beginning of the project you were confident you would use a given plot to display an insight but eventually you needed to use another plot type)
 
+<h3>Page 1: Quick Project Summary</h3>
+A high-level summary of the project, including:
+
+* Information on the dataset
+* The business/client requirements
+* Terms and Jargons
+
+<h3>Page 2: House Sale Price Study</h3>
+A page that displays the relationships between pricing and features.
+
+Answers Business Requirement 1
+
+* We will inspect the data related to house prices.
+* To analyze the factors most likely to be connected with the sale price, we shall conduct a correlation research.
+* These variables will be compared to the sale price, and the insights will be shown and summarized.
+
+<h3>Page 3: Predict House Sale Price</h3>
+On this page the client may forecast the price of her inherited houses as well as the sale price of any house in Ames, Iowa.
+
+* Answers Business Requirement 2
+* Widgets to predict a house sale price based on the selected features.
+* Display estimated sale price on the inherite houses of the client.
+
+<h3>Page 4: Project Hypothesis and Validation</h3>
+This page answers the hypothesis we had before we started the project.
+
+##
+
+<h3>Page 5: ML Model Performance</h3>
+This page contains information about the ml pipeline.
+
+* Shows the ML Pipeline.
+* Displays the best features the model was trained on.
+* Shows Performance and evaluation.
 
 
 ## Unfixed Bugs
