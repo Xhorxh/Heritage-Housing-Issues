@@ -63,12 +63,23 @@ Although Lydia has a thorough understanding of real estate costs in her own stat
 
 
 ## Hypothesis and how to validate?
-* List here your project hypothesis(es) and how you envision validating it (them).
 
+1. The first hypothesis is that houses with a larger **GrLivArea** have a higher **SalesPrice**. This investigation could benefit from a correlation study.
+2. Another hypothesis holds that a house's overall condition (**OverallCond**) improves with younger **YearBuilt** status. This investigation could benefit from a correlation study.
 
 ## The rationale to map the business requirements to the Data Visualisations and ML tasks
-* List your business requirements and a rationale to map them to the Data Visualisations and ML tasks.
 
+**Business Requirement 1:** Data Visualization and Correlation
+
+* We will examine the housing price statistics.
+* We will conduct a correlation research to identify the most important variables that are connected to the sale price.
+* We will present and summarize the data after visualizing these variables vs the sale price.
+
+**Business Requirement 2:** Regression and Data Analysis
+
+* We will provide a ML algorithm that can accurately forecast the combined sales price of the four inherited houses.
+* We will map the relationships between the characteristics and the target using conventional ML.
+* Regression will be used to estimate the connection between the variables and the target.
 
 ## ML Business Case
 * In the previous bullet, you potentially visualised an ML task to answer a business requirement. You should frame the business case using the method we covered in the course.
