@@ -20,7 +20,7 @@ def project_summary_body():
         f"**The project has 2 business requirements:**\n"
         f"* 1 : The client is interested in discovering how the house attributes correlate with the sale price. \n"
         f" Therefore, the client expects data visualizations of the correlated variables"
-         + "against the sale price to show that.\n "
+        + "against the sale price to show that.\n "
 
         f"* 2 : The client is interested in predicting the sale price of her four inherited houses and any other house in Ames, Iowa. "
     )
