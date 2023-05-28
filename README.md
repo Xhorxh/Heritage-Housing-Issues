@@ -7,7 +7,7 @@
 
 * Repository ==> [View repository](https://github.com/Xhorxh/Heritage-Housing-Issues)
 
- ![Application Mockup](#)
+ ![Application Mockup](./static/media/project.png)
 
 <h2>The CRISP-DM (CRoss Industry Standard Process for Data Mining)</h2>
 In this project, the flow and structure were combined with the CRoss Industry Standard Process for Data Mining known as Crisp-DM.
