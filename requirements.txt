@@ -18,4 +18,4 @@ MarkupSafe==2.0.1
 protobuf==3.20
 ipywidgets==8.0.2
 altair==4.1.0
-vegalite
+vega_datasets
