@@ -1,4 +1,5 @@
 # Predictive Analytics Project
+
  ## Predict the sale price of your house in Ames, Iowa.
  This tool can determine and forecast the expected sales price for your Ames, Iowa house based on historical information from properties sold in the same area.
 
@@ -23,6 +24,7 @@ It was first published in 1999 to standardize data mining methods across compani
 
 
 ## Dataset Content
+
 * The dataset is sourced from [Kaggle](https://www.kaggle.com/codeinstitute/housing-prices-data). We then created a fictitious user story where predictive analytics can be applied in a real project in the workplace. 
 * The dataset has almost 1.5 thousand rows and represents housing records from Ames, Iowa, indicating house profile (Floor Area, Basement, Garage, Kitchen, Lot, Porch, Wood Deck, Year Built) and its respective sale price for houses built between 1872 and 2010.
 
@@ -133,11 +135,8 @@ This page contains information about the ml pipeline.
 * Displays the best features the model was trained on.
 * Shows Performance and evaluation.
 
-
-## Unfixed Bugs
-* You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not valid reason to leave bugs unfixed.
-
 ## Deployment
+
 ### Heroku
 
 * The App live link is: https://YOUR_APP_NAME.herokuapp.com/ 
@@ -173,25 +172,17 @@ This page contains information about the ml pipeline.
 * [Heroku](https://www.heroku.com/)
 
 
-
 ## Credits 
 
-* In this section, you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-* You can break the credits section up into Content and Media, depending on what you have included in your project. 
-
-### Content 
-
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign-Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
-
-### Media
-
-- The photos used on the home and sign-up page are from This Open Source site
-- The images used for the gallery page were taken from this other open-source site
+* The template for this project is provided by [Code Institute](https://codeinstitute.net/global/).
+* [Text about CRISP-DM](https://www.datascience-pm.com/crisp-dm-2/)
+* A big part of the project workflow and functions was used from the walktrough project "Churnometer" from [Code Institute](https://codeinstitute.net/global/)
 
 
+## Acknowledgements
 
-## Acknowledgements (optional)
-* In case you would like to thank the people that provided support through this project.
+* I've got a big help from some tutorials in youtube to understand better some functions and workflow for
+  this project, [Full Machine Learning Project](https://www.youtube.com/watch?v=Wqmtf9SA_kk) and 
+* [Predicting housing project](https://www.youtube.com/watch?v=JU9saQ8D8is)
+* As usually [Stack Overflow](https://stackoverflow.com/)
 
