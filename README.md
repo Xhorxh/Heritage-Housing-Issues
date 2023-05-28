@@ -3,9 +3,9 @@
  ## Predict the sale price of your house in Ames, Iowa.
  This tool can determine and forecast the expected sales price for your Ames, Iowa house based on historical information from properties sold in the same area.
 
-* Live Site == > [Go to application](#-house-price.heroku)
+* Live Site == > [Go to application](https://heritage-housing-issues-pp5.herokuapp.com/)
 
-* Repository ==> [View repository](#heritage-housing-issues)
+* Repository ==> [View repository](https://github.com/Xhorxh/Heritage-Housing-Issues)
 
  ![Application Mockup](#)
 
@@ -139,7 +139,7 @@ This page contains information about the ml pipeline.
 
 ### Heroku
 
-* The App live link is: https://YOUR_APP_NAME.herokuapp.com/ 
+* The App live link is: <https://heritage-housing-issues-pp5.herokuapp.com/>
 * Set the runtime.txt Python version to a [Heroku-20](https://devcenter.heroku.com/articles/python-support#supported-runtimes) stack currently supported version.
 * The project was deployed to Heroku using the following steps.
 
