@@ -122,7 +122,9 @@ On this page the client may forecast the price of her inherited houses as well a
 <h3>Page 4: Project Hypothesis and Validation</h3>
 This page answers the hypothesis we had before we started the project.
 
-##
+1. The first hypothesis is that properties with a larger GrLivArea sell for a higher price. In our study of house prices, we discovered that there was a significant association using both the pearson and spearman methodologies, supporting the hypothesis.
+
+2. The second hypothesis is that a house's overall condition improves with younger YearBuilt dates. After our study, we saw a weak link between these qualities; nevertheless, there is no data to support this claim.
 
 <h3>Page 5: ML Model Performance</h3>
 This page contains information about the ml pipeline.
