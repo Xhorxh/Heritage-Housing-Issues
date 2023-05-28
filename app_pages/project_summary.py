@@ -13,7 +13,7 @@ def project_summary_body():
 
     st.write(
         f"* For additional information, please visit and **read** the "
-        f"[Project README file](https://#).")
+        f"[Project README file](https://github.com/Xhorxh/Heritage-Housing-Issues/tree/main#readme).")
 
     # copied from README file - "Business Requirements" section
     st.success(
