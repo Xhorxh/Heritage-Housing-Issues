@@ -183,6 +183,7 @@ This page contains information about the ml pipeline.
 
 * I've got a big help from some tutorials in youtube to understand better some functions and workflow for
   this project, [Full Machine Learning Project](https://www.youtube.com/watch?v=Wqmtf9SA_kk) and 
-* [Predicting housing project](https://www.youtube.com/watch?v=JU9saQ8D8is)
+[Predicting housing project](https://www.youtube.com/watch?v=JU9saQ8D8is)
 * As usually [Stack Overflow](https://stackoverflow.com/)
+* [House Price Prediction in Python Using Machine Learning](https://coderspacket.com/house-price-prediction-using-all-regression-methods)
 
