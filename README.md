@@ -152,7 +152,26 @@ This page contains information about the ml pipeline.
 6. If the slug size is too large then add large files not required for the app to the .slugignore file.
 
 ## Main Data Analysis and Machine Learning Libraries
-* Here you should list the libraries you used in the project and provide example(s) of how you used these libraries.
+
+* [Numpy](https://numpy.org/doc/stable/) is used to process arrays to store values.
+* [Pandas](https://pandas.pydata.org/docs/) is used to analyze data and explore data by vizalisation.
+* [Matplotlib](https://matplotlib.org/) is used for creating our static plots.
+* [Seaborn](https://seaborn.pydata.org/) is a library based on matplotlib and is used for statistical graphics for heatmaps in this project.
+* [pandas_profiling](https://pandas-profiling.ydata.ai/docs/master/index.html) is used to import ProfileReport to better understand features by vizualisation.
+* [Ppsscore](https://pypi.org/project/ppscore/) is used for identifying linear or non-linear relationships between features in the dataset.
+* [Streamlit](https://docs.streamlit.io/) is the framework we used to develop the client dashboard.
+* [Feature-engine](https://feature-engine.readthedocs.io/en/latest/) is used to engineer features to use in the model.
+* [Imbalanced-learn](https://pypi.org/project/imbalanced-learn/) is used for imbalanced numerical data.
+* [Scikit-learn](https://scikit-learn.org/stable/whats_new/v0.24.html) is used to create model pipeline and apply algoritms.
+
+<h2>Technologies</h2>
+
+* [Python](https://www.python.org/)
+* [Streamlit](https://docs.streamlit.io/)
+* [Github](https://github.com/)
+* [Gitpod](https://www.gitpod.io/)
+* [Heroku](https://www.heroku.com/)
+
 
 
 ## Credits 
